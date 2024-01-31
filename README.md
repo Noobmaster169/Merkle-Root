@@ -1,6 +1,6 @@
 # Gift List
 
-This project implements a `Merkle Tree` of Users Addresses to create a Server that verifies wheteher a User Address is allowed to reveive a gift. The implementation of the Merkle Tree could make the server run the verification task even if it only stores a 32-byte value `Merkle Root`.
+This project implements a `Merkle Tree` of Users Addresses to create a Server that verifies wheteher a User Address is allowed to reveive a gift. The implementation of the Merkle Tree could make the server run the verification task even if it only stores a 32-byte value **Merkle Root**.
 
 To get started with the repository, clone it and then run `npm install` in the top-level directory to install the depedencies.
 
@@ -23,5 +23,5 @@ The Client Side will generate the `Merkle Proof` of the user's `address`, and se
 There are a few files in utils:
 
 - `niceList.json` contains all the addresses that are eligile to receive a gift.
-- `MerkleTree.js` contains the `MerkleTree` class to manage a Merkle Tree, such as generating a `Merkle Root` and a `Merkle Proof`.
-- `verifyProof.js` contains the function to verify whether a `Merkle Proof` is valid or not. 
+- `MerkleTree.js` contains the **MerkleTree** class to manage a Merkle Tree, such as generating a **Merkle Root** and a **Merkle Proof**.
+- `verifyProof.js` contains the function to verify whether a **Merkle Proof** is valid or not. 
